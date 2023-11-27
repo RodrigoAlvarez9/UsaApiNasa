@@ -1,0 +1,56 @@
+/* src/css/home.css */
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    max-width: 1400px;
+    /* Limita a largura máxima do container */
+}
+
+.card-header {
+    background-color: #f8f9fa;
+}
+
+.card {
+    transition: transform .2s;
+    /* Animação suave para o efeito de hover */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    color: #007bff;
+    /* Cor primária do Bootstrap */
+    margin-bottom: 0.5rem;
+}
+
+.text-right {
+    text-align: right;
+}
+
+@media (min-width: 768px) {
+    .text-right {
+        text-align: end;
+    }
+}
+
+.img-fluid {
+    max-height: 100px;
+}
+
+@media (min-width: 768px) {
+    .text-right {
+        text-align: end;
+    }
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
